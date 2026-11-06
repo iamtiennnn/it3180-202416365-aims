@@ -29,8 +29,11 @@ class Cart:
     def print_cart(self):
         print("***********************CART***********************")
 
-        for dvd in self.items:
-            print(dvd)
+        if not self.items:
+            print("The cart is empty")
+        else:
+            for dvd in self.items:
+                print(dvd)
 
         print(f"Total cost: {self.total_cost():.2f} $")
         print("**************************************************")
