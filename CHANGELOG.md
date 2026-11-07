@@ -7,6 +7,13 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Make search_by_title() case-insensitive.
+- Searching for "lion" now returns "The Lion King".
+- Fix case-sensitive DVD searching (Issue #21).
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
