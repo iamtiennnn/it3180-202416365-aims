@@ -30,6 +30,7 @@ The project follows Semantic Versioning.
 - Fix discount calculation and validate discount percentage.
 - Resolve merge conflict in cart messages.
 - Revert the show-added-title feature as part of Lab 03.
+- Make search_by_title() case-insensitive.
 
 ### Changed
 - Refactor DVD and Cart modules into the aims package.
