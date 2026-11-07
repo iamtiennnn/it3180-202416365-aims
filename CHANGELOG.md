@@ -7,6 +7,9 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+### Fixed
+- Backport the case-insensitive search fix to the development branch.
+
 ## [1.1.0] - 2026-11-07
 
 ### Added
@@ -14,6 +17,12 @@ The project follows Semantic Versioning.
 - Add Cart.sort_by_cost() to sort DVDs by cost.
 - Add search_by_category().
 - Add unit tests for cart sorting.
+
+## [1.0.1] - 2026-11-07
+
+### Fixed
+- Make search_by_title() case-insensitive.
+- Fix lowercase keyword searching in the 1.0.x release line.
 
 ## [1.0.0] - 2026-11-07
 
