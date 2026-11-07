@@ -7,6 +7,11 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+- Add Cart.sort_by_title() to sort DVDs by title.
+- Add Cart.sort_by_cost() to sort DVDs by cost.
+- Add unit tests for cart sorting.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
