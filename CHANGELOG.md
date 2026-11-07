@@ -7,6 +7,10 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+- Restore Cart.discounted_total() on the development branch.
+- Add regression tests for discount calculation and percentage validation.
+
 ### Fixed
 - Backport the case-insensitive search fix to the development branch.
 
@@ -29,14 +33,12 @@ The project follows Semantic Versioning.
 ### Added
 - Add Cart.print_cart() to display cart information.
 - Add search_by_title() to search for DVDs.
-- Add discounted_total() to calculate discounted cart totals.
 - Add unit tests for cart capacity and discount calculation.
 - Add use case documentation.
 - Add pull request template.
 
 ### Fixed
 - Fix cart capacity off-by-one bug (Issue #9).
-- Fix discount calculation and validate discount percentage.
 - Resolve merge conflict in cart messages.
 - Revert the show-added-title feature as part of Lab 03.
 
